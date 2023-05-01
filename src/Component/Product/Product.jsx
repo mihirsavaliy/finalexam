@@ -43,9 +43,10 @@ function Product() {
                                                         <div className="price text-success">
                                                             <h5 className="">
                                                                 <span>Price : </span>
-                                                                {p.price}&#8377;
+                                                                {p.price}&#8377; 
                                                             </h5>
                                                         </div>
+                                                 </div>
                                                         <h6 className="card-subtitle mb-2 text-muted d-flex">{p.date}</h6>
                                                     </div>
                                                     <p className="card-text">{p.details}</p>
@@ -54,7 +55,7 @@ function Product() {
                                                         <div className='seemore-bt'><a href="" className='text-decoration-none text-dark btn btn-info mt-2'>see more</a></div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            
                                         </div>
                                     </>
                                 )
